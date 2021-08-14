@@ -3,7 +3,7 @@ import { colors } from '../../styles/colors';
 
 export const Container = styled.div`
   width: 230px;
-  height: 220px;
+  height: 230px;
 
   margin: 12px 12px;
 
@@ -28,7 +28,6 @@ export const Title = styled.span`
 
 export const DescriptionIten = styled.div`
   width: 80%;
-  height: 80%;
 
   display: flex;
   flex-direction: column;

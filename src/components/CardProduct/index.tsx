@@ -1,4 +1,5 @@
 import React from 'react';
+import Status from '../Status';
 
 import { Container, Title, DescriptionIten, Brand, Quantity, Price, Category } from './styles';
 
@@ -20,6 +21,7 @@ const CardProduct: React.FC<Props> = ({ name, brand, quantity, price, category }
         <Price>Preço: R${price}</Price>
         <Category>Categoria: {category}</Category>
       </DescriptionIten>
+      <Status />
     </Container>
   );
 };
