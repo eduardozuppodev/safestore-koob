@@ -3,7 +3,7 @@ import { colors } from '../../styles/colors';
 
 export const Container = styled.div`
   width: 100%;
-  height: 180px;
+  height: 170px;
 
   background: ${colors.header.background};
 
@@ -35,7 +35,7 @@ export const ContentTitle = styled.div`
 export const Title = styled.h1`
   color: ${colors.header.primary};
 
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 400;
 
   padding: 0 20px;
@@ -44,7 +44,7 @@ export const Title = styled.h1`
 export const SubTitle = styled.span`
   color: ${colors.header.primary};
 
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 
   padding: 0 20px;
@@ -52,22 +52,22 @@ export const SubTitle = styled.span`
 
 export const ContentButton = styled.div`
   width: 100%;
-  height: 30%;
+  height: 40%;
 
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 `;
 
 export const OpacityButton = styled.button`
   width: 100%;
   height: 45px;
 
-  background: #fefefe;
+  background: ${colors.header.button};
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
 
-  color: #574ae8;
-  font-size: 18px;
+  color: ${colors.header.secondary};
+  font-size: 16px;
   font-weight: 300;
 
   text-align: center;

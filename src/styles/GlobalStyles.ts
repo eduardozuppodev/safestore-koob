@@ -2,6 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 import { colors } from './colors';
 
 export default createGlobalStyle`
+    // Estilos Iniciais Padrões
     * {
         margin: 0;
         padding: 0;
@@ -18,5 +19,19 @@ export default createGlobalStyle`
     }
     ul {
         list-style: none;
+    }
+
+    // Personalização do Scroll
+    ::-webkit-scrollbar {
+    width: 3px;
+    height: 2px;
+    }
+
+    ::-webkit-scrollbar-track {
+    background: ${colors.body.background};
+    }
+
+    ::-webkit-scrollbar-thumb {
+    background: ${colors.header.tertiary};
     }
 `;
