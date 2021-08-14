@@ -24,21 +24,7 @@ Aplicativo para lhe ajudar a gerir o cadastro e acompanhamento de produtos. Cada
 -   [x] Prettier
 -   [x] Git
 
-
-## 🔖 Layout
   
-<p align="center">
-  <span>Desktop - Mobile - Ipad<span/>
-  <img src="https://user-images.githubusercontent.com/69389822/129454734-884718b7-9d97-4285-8518-99f28a682405.png" width="100%">
-</p>
-  <br/>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/69389822/129454804-eeeab28c-59d2-4bd5-9110-ce1d86f1ec6d.png" width="30%">
-   <img src="https://user-images.githubusercontent.com/69389822/129454836-c87726dd-c1a5-4f12-bc53-396c3e4a49c7.png" width="50%">
-</p>
-
-
-
 ## Executando o projeto
 
 Utilize o **yarn** ou o **npm install** para instalar as dependências do projeto.
@@ -47,6 +33,21 @@ Em seguida, inicie o projeto.
 ```cl
 yarn start
 ```
+
+
+## 🔖 Layout
+ <p align="center">Mobile - Ipad - Desktop<p/>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/69389822/129454734-884718b7-9d97-4285-8518-99f28a682405.png" width="100%">
+</p>
+    <p align="center">
+  <img src="https://user-images.githubusercontent.com/69389822/129454804-eeeab28c-59d2-4bd5-9110-ce1d86f1ec6d.png" width="37.2%">
+   <img src="https://user-images.githubusercontent.com/69389822/129454836-c87726dd-c1a5-4f12-bc53-396c3e4a49c7.png" width="50%">
+</p>
+
+
+
+
 
 
 <br />
