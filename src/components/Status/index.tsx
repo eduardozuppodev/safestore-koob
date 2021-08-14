@@ -5,7 +5,7 @@ import { Container, ActivatedButton } from './styles';
 const Status: React.FC = () => {
   return (
     <Container>
-      <ActivatedButton>Fora de Estoque</ActivatedButton>
+      <ActivatedButton color={'green'}>Com Estoque</ActivatedButton>
     </Container>
   );
 };

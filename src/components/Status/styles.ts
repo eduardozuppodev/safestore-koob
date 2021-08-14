@@ -15,7 +15,7 @@ export const Container = styled.div`
 export const ActivatedButton = styled.button`
   height: 30px;
 
-  color: green;
+  color: ${(props) => props.color};
   font-weight: 300;
   font-size: 12px;
 
@@ -23,7 +23,7 @@ export const ActivatedButton = styled.button`
 
   background: none;
 
-  border: 1.5px solid green;
+  border: 1.5px solid ${(props) => props.color};
   padding: 0 5px;
 
   opacity: 0.6;
@@ -33,7 +33,7 @@ export const DesactivedButton = styled.button`
   width: 90px;
   height: 30px;
 
-  color: red;
+  color: ${(props) => props.color};
   font-weight: 300;
   font-size: 12px;
 
@@ -41,7 +41,7 @@ export const DesactivedButton = styled.button`
 
   background: none;
 
-  border: 1.5px solid red;
+  border: 1.5px solid ${(props) => props.color};
 
   opacity: 0.6;
 `;
