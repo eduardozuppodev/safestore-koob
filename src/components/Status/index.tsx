@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { Container, ActivatedButton } from './styles';
+import { Container, Button } from './styles';
 
 const Status: React.FC = () => {
   return (
     <Container>
-      <ActivatedButton color={'green'}>Com Estoque</ActivatedButton>
+      <Button color={'green'}>Com Estoque</Button>
     </Container>
   );
 };
