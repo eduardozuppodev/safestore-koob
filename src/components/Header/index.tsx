@@ -8,10 +8,10 @@ const Header: React.FC = () => {
       <Content>
         <ContentTitle>
           <Title>SafeStore</Title>
-          <SubTitle>Loja</SubTitle>
+          <SubTitle>Conveniência</SubTitle>
         </ContentTitle>
         <ContentButton>
-          <OpacityButton>Cadastrar Produto</OpacityButton>
+          <OpacityButton>Cadastrar Produtos</OpacityButton>
         </ContentButton>
       </Content>
     </Container>
