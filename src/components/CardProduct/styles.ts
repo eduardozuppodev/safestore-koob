@@ -8,9 +8,10 @@ export const Container = styled.div`
   margin: 12px 12px;
 
   border-radius: 5px;
+  background: ${colors.header.primary};
 
-  -webkit-box-shadow: 0px 0px 12px -1px #000000;
-  box-shadow: 0px 0px 4px 0.5px #c4c4c4;
+  -webkit-box-shadow: 0px 0px 12px -10px #000000;
+  box-shadow: 0px 0px 4px 0.5px #f1f8fa;
 
   display: flex;
   flex-direction: column;

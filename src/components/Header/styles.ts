@@ -62,7 +62,7 @@ export const OpacityButton = styled.button`
   width: 100%;
   height: 45px;
 
-  background: ${colors.header.button};
+  background: ${colors.header.primary};
   border: none;
   border-radius: 3px;
 
