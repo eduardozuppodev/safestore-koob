@@ -36,16 +36,14 @@ yarn start
 
 
 ## 🔖 Layout
- <p align="center">Mobile - Ipad - Desktop<p/>
+ <p align="center">Desktop - Mobile - Ipad<p/>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/69389822/129454734-884718b7-9d97-4285-8518-99f28a682405.png" width="100%">
+  <img src="https://user-images.githubusercontent.com/69389822/129494271-8f316bb7-6cae-4a59-b817-41685b51c200.png" width="100%">
 </p>
     <p align="center">
-  <img src="https://user-images.githubusercontent.com/69389822/129454804-eeeab28c-59d2-4bd5-9110-ce1d86f1ec6d.png" width="37.2%">
-   <img src="https://user-images.githubusercontent.com/69389822/129454836-c87726dd-c1a5-4f12-bc53-396c3e4a49c7.png" width="50%">
+  <img src="https://user-images.githubusercontent.com/69389822/129494291-0ffca228-3dfd-4d4f-bb29-57cffb9dbf84.png" width="37.2%">
+   <img src="https://user-images.githubusercontent.com/69389822/129494297-28bafb72-41cc-4ea8-bb50-2394da8a49e7.png" width="50%">
 </p>
-
-
 
 
 
