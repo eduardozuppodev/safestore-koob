@@ -4,8 +4,9 @@ import ProductController from './controllers/ProductController';
 
 const routes = Router();
 
-// Rotas para criação e listagem de produtos
+// Endpoints
 routes.get('/products', ProductController.index);
 routes.post('/products', ProductController.store);
+routes.put('/products', ProductController.put);
 
 export default routes;

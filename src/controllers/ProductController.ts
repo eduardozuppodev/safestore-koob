@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // Importações
 import { Request, Response } from 'express';
 import { Product } from '../schemas/Product';
@@ -20,5 +21,12 @@ export default {
     }
 
     return res.json(product);
+  },
+  // Update
+  async put(req: Request, res: Response): Promise<Response> {
+    const product: any = await Product.findOne(req.body);
+    const newProduct = await Product.updateOne({ _id: product._id }, { quantity: product.quantity - 1 });
+
+    return res.json(newProduct);
   },
 };
