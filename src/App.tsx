@@ -1,8 +1,7 @@
 import React from 'react';
 import GlobalStyles from './styles/GlobalStyles';
 
-import Header from './components/Header';
-import ListProducts from './components/ListProducts';
+import { Header, ListProducts } from './components';
 
 const App: React.FC = () => {
   return (

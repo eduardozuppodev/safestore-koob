@@ -2,12 +2,14 @@ import React from 'react';
 
 import { Container, Button } from './styles';
 
-const Status: React.FC = () => {
+type Props = {
+  active: boolean;
+};
+
+export const Status: React.FC<Props> = ({ active = true }) => {
   return (
     <Container>
-      <Button color={'green'}>Com Estoque</Button>
+      <Button active={active}>Com Estoque</Button>
     </Container>
   );
 };
-
-export default Status;

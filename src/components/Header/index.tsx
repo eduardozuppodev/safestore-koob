@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Content, ContentTitle, Title, SubTitle, ContentButton, OpacityButton } from './styles';
 
-const Header: React.FC = () => {
+export const Header: React.FC = () => {
   return (
     <Container>
       <Content>
@@ -17,5 +17,3 @@ const Header: React.FC = () => {
     </Container>
   );
 };
-
-export default Header;

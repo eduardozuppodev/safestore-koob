@@ -1,5 +1,5 @@
 import React from 'react';
-import Status from '../Status';
+import { Status } from '../../components';
 
 import { Container, Title, DescriptionIten, Brand, Quantity, Price, Category } from './styles';
 
@@ -11,7 +11,7 @@ type Props = {
   category: string;
 };
 
-const CardProduct: React.FC<Props> = ({ name, brand, quantity, price, category }) => {
+export const CardProduct: React.FC<Props> = ({ name, brand, quantity, price, category }) => {
   return (
     <Container>
       <Title>{name}</Title>
@@ -21,9 +21,7 @@ const CardProduct: React.FC<Props> = ({ name, brand, quantity, price, category }
         <Price>Preço: R${price}</Price>
         <Category>Categoria: {category}</Category>
       </DescriptionIten>
-      <Status />
+      <Status active />
     </Container>
   );
 };
-
-export default CardProduct;

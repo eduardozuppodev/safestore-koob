@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 import { colors } from './colors';
 
 export default createGlobalStyle`
-    // Estilos Iniciais Padrões
+    // Estilos globais Padrões
     * {
         margin: 0;
         padding: 0;

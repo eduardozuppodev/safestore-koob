@@ -1,9 +1,9 @@
 import React from 'react';
-import CardProduct from '../CardProduct';
+import { CardProduct } from '../../components';
 
 import { Container, Content } from './styles';
 
-const ListProducts: React.FC = () => {
+export const ListProducts: React.FC = () => {
   return (
     <Container>
       <Content>
@@ -23,5 +23,3 @@ const ListProducts: React.FC = () => {
     </Container>
   );
 };
-
-export default ListProducts;
