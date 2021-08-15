@@ -13,7 +13,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  margin-top: 5px;
+  margin: 5px 0 5px 0;
 `;
 
 export const Button = styled.button`

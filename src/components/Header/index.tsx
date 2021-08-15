@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 
 import { Container, Content, ContentTitle, Title, SubTitle, ContentButton, OpacityButton } from './styles';
-import Modal from '../Modal';
+import { Modal } from '../../components';
 
-export const Header: React.FC = () => {
+type Props = {
+  title: string;
+  subtitle: string;
+  btn: string;
+};
+
+export const Header: React.FC<Props> = ({ title, subtitle, btn }) => {
   // Estado do modal para abrir e fechar
   const [modal, setModal] = useState(false);
 
@@ -13,11 +19,11 @@ export const Header: React.FC = () => {
       <Container>
         <Content>
           <ContentTitle>
-            <Title>SafeStore</Title>
-            <SubTitle>Conveniência</SubTitle>
+            <Title>{title}</Title>
+            <SubTitle>{subtitle}</SubTitle>
           </ContentTitle>
           <ContentButton>
-            <OpacityButton onClick={() => setModal(true)}>Cadastrar Produtos</OpacityButton>
+            <OpacityButton onClick={() => setModal(true)}>{btn}</OpacityButton>
           </ContentButton>
         </Content>
       </Container>

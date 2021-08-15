@@ -16,4 +16,9 @@ export const colors = {
   form: {
     input: '#c4c4c4',
   },
+  sales: {
+    background: '#dcdcdc',
+    title: '#202024',
+    secondary: '#a0a0a0',
+  },
 };

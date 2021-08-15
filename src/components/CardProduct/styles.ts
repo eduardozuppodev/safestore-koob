@@ -3,7 +3,6 @@ import { colors } from '../../styles/colors';
 
 export const Container = styled.div`
   width: 230px;
-  height: 230px;
 
   margin: 12px 12px;
 

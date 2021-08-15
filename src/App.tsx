@@ -6,7 +6,7 @@ import { Header, ListProducts } from './components';
 const App: React.FC = () => {
   return (
     <>
-      <Header />
+      <Header title={'SafeStore'} subtitle={'Conveniência'} btn={'Cadastrar Produtos'} />
       <ListProducts />
       <GlobalStyles />
     </>

@@ -10,7 +10,7 @@ type Props = {
   onClose: () => void;
 };
 
-const Modal: React.FC<Props> = ({ onClose = () => {} }) => {
+export const Modal: React.FC<Props> = ({ onClose = () => {} }) => {
   // State dos campos do form
   const [name, setName] = useState();
   const [brand, setBrand] = useState();
@@ -77,5 +77,3 @@ const Modal: React.FC<Props> = ({ onClose = () => {} }) => {
     </Container>
   );
 };
-
-export default Modal;

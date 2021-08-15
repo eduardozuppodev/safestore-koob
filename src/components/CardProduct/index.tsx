@@ -1,5 +1,5 @@
 import React from 'react';
-import { Status } from '../../components';
+import { Status, SalesButton } from '../../components';
 
 import { Container, Title, DescriptionIten, Brand, Quantity, Price, Category } from './styles';
 
@@ -23,6 +23,7 @@ export const CardProduct: React.FC<Props> = ({ name, brand, quantity, price, cat
       </DescriptionIten>
       {quantity <= 0 && <Status active={false} />}
       {quantity > 0 && <Status active={true} />}
+      {quantity > 0 && <SalesButton title={'Vender'} />}
     </Container>
   );
 };
