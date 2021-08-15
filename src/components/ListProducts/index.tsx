@@ -28,6 +28,11 @@ export const ListProducts: React.FC = () => {
     });
   }, []);
 
+  //
+  const handleSoldProduct = async (_id: string) => {
+    await api.put('products', { _id });
+  };
+
   return (
     <Container>
       <Content>
@@ -45,4 +50,3 @@ export const ListProducts: React.FC = () => {
     </Container>
   );
 };
-//<CardProduct name={'Tênis Esportivo'} brand={'Nike'} quantity={15} price={'20.00'} category={'Calçados'} />
