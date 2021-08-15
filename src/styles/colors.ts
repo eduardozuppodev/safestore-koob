@@ -11,4 +11,7 @@ export const colors = {
   card: {
     title: '#313131',
   },
+  form: {
+    input: '#c4c4c4',
+  },
 };
