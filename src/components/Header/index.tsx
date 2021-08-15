@@ -4,6 +4,7 @@ import { Container, Content, ContentTitle, Title, SubTitle, ContentButton, Opaci
 import Modal from '../Modal';
 
 export const Header: React.FC = () => {
+  // Estado do modal para abrir e fechar
   const [modal, setModal] = useState(false);
 
   return (

@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-// import { colors } from '../../styles/colors';
+import { colors } from '../../styles/colors';
 
 type PropsButton = {
-  active: boolean;
+  active?: boolean;
 };
 
 export const Container = styled.div`
@@ -19,7 +19,7 @@ export const Container = styled.div`
 export const Button = styled.button`
   height: 30px;
 
-  color: ${(props: PropsButton) => (props.active ? 'gren' : `red`)};
+  color: ${(props: PropsButton) => (props.active ? colors.card.active : colors.card.desactive)};
   font-weight: 300;
   font-size: 12px;
 
@@ -27,7 +27,7 @@ export const Button = styled.button`
 
   background: none;
 
-  border: 1.5px solid ${(props: PropsButton) => (props.active ? 'gren' : `red`)};
+  border: 1.5px solid ${(props: PropsButton) => (props.active ? colors.card.active : colors.card.desactive)};
   padding: 0 5px;
 
   opacity: 0.6;

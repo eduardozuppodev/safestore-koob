@@ -10,6 +10,8 @@ export const colors = {
   },
   card: {
     title: '#313131',
+    active: '#00a000',
+    desactive: '#ff2c27',
   },
   form: {
     input: '#c4c4c4',

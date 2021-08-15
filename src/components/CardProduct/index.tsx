@@ -21,7 +21,8 @@ export const CardProduct: React.FC<Props> = ({ name, brand, quantity, price, cat
         <Price>Preço: R${price}</Price>
         <Category>Categoria: {category}</Category>
       </DescriptionIten>
-      <Status active />
+      {quantity <= 0 && <Status active={false} />}
+      {quantity > 0 && <Status active={true} />}
     </Container>
   );
 };
