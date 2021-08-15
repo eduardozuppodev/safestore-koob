@@ -31,6 +31,7 @@ export const Content = styled.div`
   align-items: center;
 
   padding: 10px 0;
+  margin: 0 10px;
 `;
 
 export const CloseContainer = styled.div`
