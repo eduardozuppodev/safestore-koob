@@ -4,7 +4,7 @@
   <span>Aplicação Front-End da Safe Store - Koob<span/>
 </h1>
   
-## ✨ Link App
+## ✨ Link App - Deploy Netlify
   <a href="https://affectionate-wozniak-00cb4a.netlify.app/">Safe Store<a/>
 
 
