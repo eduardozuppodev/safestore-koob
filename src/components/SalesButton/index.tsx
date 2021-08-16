@@ -5,13 +5,13 @@ import { Container, BtnSold } from './styles';
 
 type Props = {
   title: string;
-  onPress: () => void;
+  onClick: () => void;
 };
 
-export const SalesButton: React.FC<Props> = ({ title, onPress }) => {
+export const SalesButton: React.FC<Props> = ({ title, onClick }) => {
   return (
     <Container>
-      <BtnSold onClick={onPress}>{title}</BtnSold>
+      <BtnSold onClick={onClick}>{title}</BtnSold>
     </Container>
   );
 };

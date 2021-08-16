@@ -9,9 +9,10 @@ type Props = {
   quantity: number;
   price: string;
   category: string;
+  onSale: () => void;
 };
 
-export const CardProduct: React.FC<Props> = ({ name, brand, quantity, price, category }) => {
+export const CardProduct: React.FC<Props> = ({ name, brand, quantity, price, category, onSale }) => {
   return (
     <Container>
       <Title>{name}</Title>
@@ -23,7 +24,7 @@ export const CardProduct: React.FC<Props> = ({ name, brand, quantity, price, cat
       </DescriptionIten>
       {quantity <= 0 && <Status active={false} />}
       {quantity > 0 && <Status active={true} />}
-      {quantity > 0 && <SalesButton title={'Vender'} />}
+      {quantity > 0 && <SalesButton onClick={onSale} title={'vender'} />}
     </Container>
   );
 };

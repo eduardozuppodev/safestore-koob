@@ -19,7 +19,7 @@ export const ListProducts: React.FC = () => {
   // Listando Produtos
 
   //Declarando state
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<ProductType[]>([]);
 
   // Pegando dados do endpoint
   useEffect(() => {
@@ -28,9 +28,11 @@ export const ListProducts: React.FC = () => {
     });
   }, []);
 
-  //
+  // Function para simular a venda
   const handleSoldProduct = async (_id: string) => {
     await api.put('products', { _id });
+
+    return alert('Venda realizada com Sucesso!'), window.location.reload();
   };
 
   return (
@@ -44,6 +46,8 @@ export const ListProducts: React.FC = () => {
             quantity={product.quantity}
             price={product.price}
             category={product.category}
+            // Chamando function e passando o id como params
+            onSale={() => handleSoldProduct(product._id)}
           />
         ))}
       </Content>
