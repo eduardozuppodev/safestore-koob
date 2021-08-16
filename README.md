@@ -4,6 +4,8 @@
   <span>Aplicação Back-End da Safe Store - Koob<span/>
 </h1>
 
+## ✨ Link API
+  <a href="https://safestore.herokuapp.com/products">safestore-api<a/>
 
 ## 💻 Projeto
 Aplicativo para lhe ajudar a gerir o cadastro e acompanhamento de produtos. Cadastre seus produtos com essa aplicação e melhore ainda mais sua Conveniência.
