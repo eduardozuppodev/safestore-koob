@@ -19,7 +19,7 @@ Aplicativo para lhe ajudar a gerir o cadastro e acompanhamento de produtos. Cada
 
 -   [x] Nodejs
 -   [x] Typescript
--   [x] Espress
+-   [x] Express
 -   [x] Mongoose
 -   [x] MongoDB Atlas
 -   [x] Cors
