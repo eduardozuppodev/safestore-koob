@@ -20,7 +20,7 @@ export const handleSendMail = (): any => {
       to: 'eduzuppo@gmail.com',
       subject: 'Produto Esgotado - Safe Store',
       text: 'Parece que um produto esgotou!',
-      html: 'Não perca tempo, corra na <a href="https://google.com.br">Safe Store</a> e estoque seu produto em falta.',
+      html: 'Não perca tempo, corra na <a href="https://affectionate-wozniak-00cb4a.netlify.app/">Safe Store</a> e estoque seu produto em falta.',
     })
     .then((message) => {
       console.log(message);
