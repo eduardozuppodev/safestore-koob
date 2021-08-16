@@ -7,6 +7,10 @@
 ## ✨ Link API
   <a href="https://safestore.herokuapp.com/products">safestore-api<a/>
 
+## 👨‍🦱 Email para Recebimento
+    - user: cliente.safestore@gmail.com
+    - password: cliente123
+
 ## 💻 Projeto
 Aplicativo para lhe ajudar a gerir o cadastro e acompanhamento de produtos. Cadastre seus produtos com essa aplicação e melhore ainda mais sua Conveniência.
 
