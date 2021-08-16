@@ -26,7 +26,11 @@ export default {
   async put(req: Request, res: Response): Promise<Response> {
     const product: any = await Product.findOne(req.body);
     const newProduct = await Product.updateOne({ _id: product._id }, { quantity: product.quantity - 1 });
+    const productUpdated: any = await Product.findOne(req.body);
 
+    if (productUpdated.quantity < 1) {
+      handleSendMail();
+    }
     return res.json(newProduct);
   },
 };
