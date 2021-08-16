@@ -8,6 +8,7 @@
   <a href="https://safestore.herokuapp.com/products">safestore-api<a/>
 
 ## 👨‍🦱 Email para Recebimento
+#### Quando a quantidade do produto esgotar, será encaminhado um aviso para o seguinte email:
     - user: cliente.safestore@gmail.com
     - password: cliente123
 
