@@ -5,6 +5,7 @@
   "license": "MIT",
   "author": "eduardozuppodev",
   "scripts": {
+    "start": "yarn build && node ./dist/server.js",
     "dev": "ts-node-dev -T -I node_modules src/server.ts",
     "prebuild": "rimraf dist",
     "build": "sucrase ./src -d ./dist --transforms typescript,imports",
