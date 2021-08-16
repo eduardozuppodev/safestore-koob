@@ -17,7 +17,7 @@ export const handleSendMail = (): any => {
   transporter
     .sendMail({
       from: 'Safe Store <safestore.contact@gmail.com>',
-      to: 'eduzuppo@gmail.com',
+      to: 'cliente.safestore@gmail.com',
       subject: 'Produto Esgotado - Safe Store',
       text: 'Parece que um produto esgotou!',
       html: 'Não perca tempo, corra na <a href="https://affectionate-wozniak-00cb4a.netlify.app/">Safe Store</a> e estoque seu produto em falta.',
