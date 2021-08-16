@@ -4,7 +4,7 @@
   <span>Aplicação Back-End da Safe Store - Koob<span/>
 </h1>
 
-## ✨ Link API
+## ✨ Link API - Deploy Heroku
   <a href="https://safestore.herokuapp.com/products">safestore-api<a/>
 
 ## 👨‍🦱 Email para Recebimento
